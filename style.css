@@ -908,7 +908,7 @@ div.button-social a:hover {
 	position: relative;
 	background: none;
 	padding: 0;
-	margin-left: 15%;
+	margin-left: 30%;
 
 }
 
@@ -946,6 +946,7 @@ span.portfolio-link {
 	padding: 20px;
 	color: #fff;
 	margin: 20% auto;
+
 }
 
 .portfolio-item-ct .textbox-portfolio {
