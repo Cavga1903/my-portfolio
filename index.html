@@ -1,0 +1,518 @@
+<!doctype html>
+<!-- start html -->
+<html lang="tr">
+  <!-- start head  -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Merriweather&family=Merriweather+Sans&family=Nunito&family=Nunito+Sans&family=Quattrocento&family=Quattrocento+Sans&family=Source+Code+Pro:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
+
+    <title>Tolga Çavga</title>
+  </head>
+  <!-- end head  -->
+    <!-- start body  -->
+  <body>
+    <!-- start section#nav  -->
+    <section id="nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <a id="logo" href="index.html"><i class="fa-solid fa-laptop-code fa-lg d-block pl-0 pl-sm-5"></i></a>
+              <a class="navbar-brand d-none d-lg-block" style="color: #00FFCA;" href="#nav">
+              Tolga Çavga </a>
+              <a class=" d-block d-lg-none text-monospace font-weight-bolder text-" href="#nav" style="text-decoration: none; color: #00FFCA;">Tolga Çavga </a>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav d-flex ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#nav" onclick="smoothScroll()" >Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about" onclick="smoothScroll()" >Hakkında</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio" onclick="smoothScroll()" >Projeler</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link" href="#contact" onclick="smoothScroll()" >İletişim</a>
+                </li>
+              </ul>
+              <!-- <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+              </label>  -->
+              </div>
+              
+              <a id="toggle" class="d-block d-lg-none d-block pr-0 pr-sm-5"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span></a>
+              <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn pr-sm-5" onclick="closeNav()">&times;</a>
+                <a href="#nav"onclick="smoothScroll()" >Anasayfa</a>
+                <a href="#about"onclick="smoothScroll()">Hakkında</a>
+                <a href="#portfolio"onclick="smoothScroll()">Projeler</a>
+                <a href="#contact"onclick="smoothScroll()">İletişim</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end section#nav  -->
+    <!-- start section#header  -->
+    <section id="header">
+      <!-- start #header-intro  -->
+      <header class="intro">
+        <!-- start intro-body  -->
+          <div class="intro-body">
+            <!-- start container  -->
+            <div class="container">
+                <!-- start row  -->
+                <div class="row">
+                  <!-- start col-12  -->
+                  <div class="col-1"></div>
+                  <div class="col-10 text-left text-white">
+                      <!-- start typer hello -->
+                      <div class="brand-heading">
+                        <div class='console-container'>
+                          <span id="text" class=""></span>
+                          <div  class='console-underscore' id='console'>
+                            &#95;
+                          </div>
+                        </div>
+                      </div>
+						          <!-- end typer hello -->
+                      <!-- start intro-text -->
+                      <div>
+                    			<!-- <p class="intro-text">My name is Tolga Çavga.
+							        <br> I'm a <span class="fa fa-code" aria-hidden="true"></span> <span class="intro-text-hgl">front-end developer</span> <span class="fa fa-code" aria-hidden="true"></span>
+							        <br>based in the beautiful city of <span class="city">Izmir</span>, Turkey.
+								</p> -->
+
+								<p class="intro-text">Benim adım Tolga Çavga.
+										<br> Ben bir <span class="fa fa-code" aria-hidden="true"></span> <span class="intro-text-hgl">Front-end Geliştiricisiyim</span> <span class="fa fa-code" aria-hidden="true"></span>
+										<br>Türkiye'nin güzel şehri <span class="city">İzmir</span> merkezli.
+								</p>
+                      </div>
+                      <!-- end intro-text -->
+                  </div>
+                  <div class="col-1"></div>
+                  <!-- end col-12  -->
+                </div>
+                <!-- end row  -->
+            </div>
+            <!-- end container  -->
+          </div>
+          <!-- end intro-body  -->
+      </header>
+      <!-- end #header-intro  -->
+      <!-- start mouse wrap -->   
+      <div class="row">
+          <div class="col-12 text-center">
+            <div class="mouse-warp">
+            <a href="#nav" class="page-scroll">
+              <div class="mouse">
+              <div class="scroll"></div>
+              </div>
+            </a>
+            </div>
+          </div>
+      </div>
+      <!-- end mouse wrap -->
+    </section>
+    <!-- end section#header  -->
+    <!-- start section#about  -->
+    <section id="about">
+    <!-- start section#container  -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>Hakkında</h2>
+          </div>
+          <div class="row">
+            <div class="col-8 offset-2 text-center text-white">
+              <p>
+                Burada benim hakkımda, ne yaptığım ve çoğunlukla programlama ve teknoloji açısından mevcut becerilerim hakkında daha fazla bilgi bulacaksınız.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 offset-1">
+          <div class="col-6 mt-2 pr-5 text-white">
+            <!-- <h5>Get to know me!</h5> -->
+            <h5> <small> <bold> Beni tanımak istersen! </bold></small></h5>
+            <p>
+              Merhaba! <span class="fa fa-beer" aria-hidden="true"></span> Ben bir <span> Frontend Web Geliştiriciyim </span> ve Websitesi ve Web Uygulamalarının Front-end'ini oluşturarak mükemmel ürünlerin başarıya ulaşmasına katkı sağlıyorum. Başarılı projelerim için <span> Projeler </span> bölümüne göz atabilirsiniz. </p><p>
+
+              Ayrıca, Web Geliştirme alanında edindiğim bilgileri paylaşmaktan büyük keyif alıyorum. Bu, Geliştirici Topluluğu içindeki diğer insanların da faydalanmasını sağlıyor. <span> Web Geliştirme </span> ve Programlama ile ilgili ilginç içerikleri düzenli olarak paylaştığım <a href="https://pt.linkedin.com/in/tolgaacavgaa" style="color: #00FFCA;"> Linkedin </a> profilime göz atmanızı öneririm. Bağlantı kurarak güncel bilgilerden haberdar olabilirsiniz.
+              </p><p>
+              Kendimi sürekli geliştirmek ve yeni deneyimler edinmek için <span> iş </span> fırsatlarına her zaman açığım. Eğer beceri ve deneyimlerimle uyumlu bir iş fırsatıyla karşılaşırsanız, lütfen benimle <span> iletişime </span> geçmekten çekinmeyin. Birlikte çalışarak başarıya ulaşmak ve birlikte büyümek için sabırsızlanıyorum.
+              </p>
+              
+              <a href="#contact" id="myButton" class="btn btn-outline mycolor "> İletişim </a>
+          </div>
+          <div class="col-6 mt-2 pl-5 text-white">
+            <h5><small> <bold> Becerilerim!</bold> </small></h5>
+            <h6 class="skillHeading">Fullstack Development <br>(Hardly Front-End)</h6> 
+            <button type="button" id="mySkillButton" class="btn btn-outline">HTML</button>
+            <button type="button" id="mySkillButton" class="btn btn-outline">CSS</button>
+            <button type="button" id="mySkillButton" class="btn btn-outline">Bootstrap</button>
+            <button type="button" id="mySkillButton" class="btn btn-outline">JavaScript</button>
+            <button type="button" id="mySkillButton" class="btn btn-outline">TypeScript</button>
+            <button type="button" id="mySkillButton" class="btn btn-outline">NodeJS</button>
+            <button type="button" id="mySkillButton" class="btn btn-outline">React</button>
+            <button type="button" id="mySkillButton" class="btn btn-outline">GIT</button>
+            <button type="button" id="mySkillButton" class="btn btn-outline">GitHub</button>
+            <button type="button" id="mySkillButton" class="btn btn-outline">Responsive Design</button>
+            <button type="button" id="mySkillButton" class="btn btn-outline">SEO</button>
+            <button type="button" id="mySkillButton" class="btn btn-outline">SQL Basics</button>
+            <button type="button" id="mySkillButton" class="btn btn-outline">React Native</button>
+            <button type="button" id="mySkillButton" class="btn btn-outline">MongoDB</button>
+            <button type="button" id="mySkillButton" class="btn btn-outline">Microsoft Azure</button>
+            <button type="button" id="mySkillButton" class="btn btn-outline">Rest API</button>
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <a style="text-decoration: none;" href="assets/TolgaCavgaENcv2402.pdf" alt="Tolga Cavga CV" target="_blank">
+							<div class="button-group-li">
+								<div class="text-timeline">CV'yi İndir</div>
+								<div class="icon-li"><span class="fa fa-download" aria-hidden="true"></span></div>
+							</div>
+						</a>
+          </div>      
+        </div>
+      </div>
+    <!-- end section#container  -->
+    </section>
+    <!-- end section#about  -->
+    <!-- start section#counter-stats -->
+    <section id="counter-stats">
+      <div class="container">
+        <div class="row text-center">
+           <div class="col-md-6 col-lg-3 stats">
+             <span class="fa fa-code" aria-hidden="true"></span>
+             <div class="counter" data-count="900000">5000</div>
+             <h4>Kod satırı</h4>
+           </div>
+           <div class="col-md-6 col-lg-3 stats">
+             <span class="fa fa-check" aria-hidden="true"></span>
+             <div class="counter" data-count="280">5</div>
+             <h4>Biten proje</h4>
+           </div>
+           <div class="col-md-6 col-lg-3 stats">
+             <span class="fa fa-user" aria-hidden="true"></span>
+             <div class="counter" data-count="75">1</div>
+             <h4>Mutlu müşteri</h4>
+           </div>
+           <div class="col-md-6 col-lg-3 stats">
+             <span class="fa fa-coffee" aria-hidden="true"></span>
+             <div class="counter" data-count="999">999+</div>
+             <h4>İçilen kahveler</h4>
+           </div>
+        </div>
+      </div>
+    </section>
+    <!-- end section#counter-stats -->
+    <!-- start section#experience  -->
+	<section id="experience">
+		<div class="container">
+			<h5>Deneyim</h5>
+			<div class="experience-ct">
+				<div class="row">
+					<div class="col-md-6 timeline-label">
+						<h4>Kilit Alanlar</h4>
+						<p>Ön uç geliştirme, WordPress geliştirme ve SEO iyileştirme.</p>
+						<a href="https://www.linkedin.com/in/tolgaacavgaa/" alt="LinkedIn profile" target="_blank" rel="noopener">
+							<div class="button-group-li">
+								<div class="text-timeline">LinkedIn'de Görüntüle</div>
+								<div class="icon-li"><span class="fa fa-linkedin" aria-hidden="true"></span></div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 timeline col-exp">
+						<div class="timeline-year">
+							<time datetime="2023">2023</time>
+							<div class="timeline-experience">
+								<span class="timeline-circle"></span>
+								<div class="timeline-experience-img"><img src="https://media.webhelp.com/wp-content/uploads/2022/03/17113323/webhelp-logo-peace.svg" alt="Webhelp "></div>
+								<div class="timeline-experience-info clear-after">
+                  <a href="https://webhelp.com/tr/" target="_blank" rel="noopener"><h5>Webhelp & Concentrix <i class="fa-solid fa-link" style="color: #ffffff;"></i></h5></a>
+									<div class="timeline-role">Bireysel Müşteri Temsilcisi</div>
+									<p>Aralık 2022 - Ekim 2024</p>
+								</div>
+								<!-- experience-info -->
+							</div>
+							<!-- experience -->
+							<time datetime="2017">2017</time>
+							<div class="timeline-experience">
+								<span class="timeline-circle"></span>
+								<div class="timeline-experience-img"><img src="https://logowik.com/content/uploads/images/616_izmirbuyuksehirbelediyesi.jpg" alt="Bilgi İşlem Stajyeri"></div>
+								<div class="timeline-experience-info clear-after">
+                  <a href="https://www.izmir.bel.tr" target="_blank" rel="noopener"><h5>İzmir Büyükşehir Belediyesi <i class="fa-solid fa-link" style="color: #ffffff;"></i></h5></a>
+									<div class="timeline-role">Bilgi işlem | Stajyer</div>
+									<p>Eylül 2017 - Haziran 2021</p>
+								</div>
+								<!-- experience-info -->
+							</div>
+							<!-- experience -->
+						</div>
+						<!-- year -->
+						<div class="timeline-year timeline-year1">
+							<time datetime="2015">2015</time>
+							<div class="timeline-experience">
+								<span class="timeline-circle"></span>
+								<div class="timeline-experience-img"><img src="#" alt="Test"></div>
+								<div class="timeline-experience-info clear-after">
+									<a href="#" target="_blank"><h5>Deneyim <i class="fa-solid fa-link" style="color: #ffffff;"></i></h5></a>
+                  <div class="timeline-role">Deneyim</div>
+									<p>Temmuz 2021 - Ağustos 2021</p>
+								</div>
+								<!-- experience-info -->
+							</div>
+							<!-- experience -->
+							<time datetime="2015">2015</time>
+							<div class="timeline-experience">
+								<span class="timeline-circle"></span>
+								<div class="timeline-experience-img"><img src="#" alt="Test"></div>
+								<div class="timeline-experience-info clear-after">
+									<a href="#" target="_blank"><h5>Deneyim <i class="fa-solid fa-link" style="color: #ffffff;"></i></h5></a>
+                  <div class="timeline-role">Deneyim</div>
+									<p>Temmuz 2021 - Ağustos 2021</p>
+								</div>
+								<!-- experience-info -->
+							</div>
+							<!-- experience -->
+						</div>
+						<!-- year -->
+					</div>
+				</div>
+				<!-- end row of two columns -->
+			</div>
+			<!-- end experience container of two columns -->
+		</div>
+		<!-- end container experience -->
+	</section>
+	<!-- end section#experience  -->
+    <!-- start section#portfolio  -->
+   	<section id="portfolio">
+		<div class="container-fluid portfolio-ct">
+			<h5>Portfolyo</h5>
+			<div class="row">
+        		<!-- start first portfolio item -->
+				<div class="col-sm-6 col-md-4 grid-portfolio">
+					<div class="portfolio-item-ct">
+						<div class="thumbnail">
+							<img src="/assets/my-portfolio.png" alt="Portfolio - PERSONAL WEBSITE" class="img-responsive">
+							<div class="textbox-portfolio">
+								<div class="button-weblink">
+									<a href="#" alt="Portfolio - PERSONAL WEBSITE"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="caption portfolio-details">
+							<h3>PERSONAL WEBSITE</h3>
+							<p>Responsive website
+								<br> using Bootstrap.
+							</p>
+							<ul class="portfolio-tags">
+								<li class="portfolio-tag">HTML5 / CSS3</li>
+								<li class="portfolio-tag">BOOTSTRAP</li>
+								<li class="portfolio-tag">JAVASCRIPT</li>
+								<li class="portfolio-tag">SEO</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- end first portfolio item -->
+			
+				<!-- start second portfolio item -->
+				<div class="col-sm-6 col-md-4 grid-portfolio">
+					<div class="portfolio-item-ct">
+						<div class="thumbnail">
+							<img src="/assets/my-portfolio.png" alt="Portfolio - PERSONAL WEBSITE" class="img-responsive">
+							<div class="textbox-portfolio">
+								<div class="button-weblink">
+									<a href="#" alt="Portfolio - PERSONAL WEBSITE"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="caption portfolio-details">
+							<h3>PERSONAL WEBSITE</h3>
+							<p>Responsive website
+								<br> using Bootstrap.
+							</p>
+							<ul class="portfolio-tags">
+								<li class="portfolio-tag">HTML5 / CSS3</li>
+								<li class="portfolio-tag">BOOTSTRAP</li>
+								<li class="portfolio-tag">JAVASCRIPT</li>
+								<li class="portfolio-tag">SEO</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- end second portfolio item -->
+				
+				
+				<!-- start third portfolio item -->
+				<div class="col-sm-6 col-md-4 grid-portfolio">
+					<div class="portfolio-item-ct">
+						<div class="thumbnail">
+							<img src="/assets/my-portfolio.png" alt="Portfolio - PERSONAL WEBSITE" class="img-responsive">
+							<div class="textbox-portfolio">
+								<div class="button-weblink">
+									<a href="#" alt="Portfolio - PERSONAL WEBSITE"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="caption portfolio-details">
+							<h3>PERSONAL WEBSITE</h3>
+							<p>Responsive website
+								<br> using Bootstrap.
+							</p>
+							<ul class="portfolio-tags">
+								<li class="portfolio-tag">HTML5 / CSS3</li>
+								<li class="portfolio-tag">BOOTSTRAP</li>
+								<li class="portfolio-tag">JAVASCRIPT</li>
+								<li class="portfolio-tag">SEO</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- end third portfolio item -->
+			</div>
+			<!-- end row portfolio -->
+		</div>
+		<!-- end container portfolio -->
+	</section>
+	<!-- end section#portfolio  -->
+
+	<!-- start services -->
+	<section id="services">
+		<!-- start container  -->
+		<div class="container">
+			<h5>Servisler</h5>
+			<!-- start row services section -->
+			<div class="row">
+				<!-- start row of services -->
+
+					<div class="col-md-4 services-item">
+						<div class="rotate">
+							<span class="fa fa-code" aria-hidden="true"></span>
+							<!-- <i class="fa fa-file-code-o fa-wrapper" aria-hidden="true"></i> -->
+						</div>
+						<h3>Front End Geliştirme</h3>
+						<p>Duyarlı web sitelerinin geliştirilmesi, tarayıcılar arası ve platformlar arası test.</p>
+					</div>
+					<div class="col-md-4 services-item">
+						<div class="rotate">
+							<span class="fa fa-wordpress fa-wrapper" aria-hidden="true"></span>
+						</div>
+						<h3>WordPress Geliştirme</h3>
+						<p>Özel geliştirme (web sitesi, tema ve eklenti), barındırma ve bakım.</p>
+					</div>
+					<div class="col-md-4 services-item">
+						<div class="rotate">
+							<span class="fa fa-line-chart" aria-hidden="true"></span>
+							<!-- <i class="fa fa-search fa-wrapper" aria-hidden="true"></i>-->
+						</div>
+						<h3>Arama motoru optimizasyonu</h3>
+						<p>SEO teknikleriyle tüm büyük arama motorlarında ve yerel aramalarda görünürlüğünüzü artırın.</p>
+					</div>
+
+				<!-- end row of services -->
+			</div>
+			<!-- end row services section -->
+		</div>
+		<!-- end container  -->
+	</section>
+	<!-- end services -->
+
+    <!-- start footer#contact  -->
+    <footer id="contact">
+      <div class="container">
+        <h5>İletişim</h5>
+       <div class="row">
+        <div class="col-12 text-center">          
+          <p> <span style="font-size: large; font-weight: 500;" > Tolga Çavga  </span><br><br>
+            <!-- A highly skilled and proficient Frontend Web Developer adept at architecting impactful User Interfaces for Websites and Web Applications, playing a decisive role in driving the resounding success of the overall product. -->
+            Kullanıcı arayüzlerinin etkileyici bir şekilde tasarlanması konusunda uzmanlaşmış, web siteleri ve uygulamaları için etkili kullanıcı arayüzleri oluşturma konusunda becerikli bir Frontend Web Geliştiricisiyim. Genel ürün başarısında belirleyici bir rol oynayarak, yüksek beceri ve uzmanlığımla katkı sağlıyorum.
+          </p>
+          <br>
+          <div class="social text-center">
+            <a href="mailto:cavgaa228@gmail.com" target="_blank" alt="eMail profile"><span class="fa fa-mail-bulk" aria-hidden="true"></span></a>
+            
+            <a href="https://pt.linkedin.com/in/tolgaacavgaa" target="_blank" alt="LinkedIn profile"rel="noopener"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
+            
+            <a href="https://instagram.com/tolgaacavgaa" target="_blank" alt="Instagram profile"rel="noopener"><span class="fa fa-instagram" aria-hidden="true"></span></a>
+            
+            <a href="https://twitter.com/tcavgaa" target="_blank" alt="Twitter profile"rel="noopener"><span class="fa fa-twitter" aria-hidden="true"></span></a>
+            
+            <a href="https://github.com/cavga1903" target="_blank" alt="GitHub profile"rel="noopener"><span class="fa fa-github" aria-hidden="true"></span></a>
+
+            <a href="https://buymeacoffee.com/cavga228" target="_blank" alt="buymeacoffee profile"rel="noopener"><span class="fa-regular fa-mug-hot" aria-hidden="true"></span></a>
+          </div>
+          <p id="copyright">© Copyright 2023. Made by <a href="">Tolga Çavga</a></p>
+        </div>
+       </div>
+      </div>
+    </footer>
+    <!-- end footer#contact  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script>
+
+
+    </script>
+    <script src="script.js"></script>
+
+        <!-- FontAwesome  -->
+    <script src="https://kit.fontawesome.com/bb17c4d605.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+      <script type="module">
+  import { Toast } from 'bootstrap.esm.min.js'
+
+  Array.from(document.querySelectorAll('.toast'))
+    .forEach(toastNode => new Toast(toastNode))
+
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0px";
+      }
+      const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+    </body>
+    <!-- end body -->
+</html>
+    <!-- end html -->
